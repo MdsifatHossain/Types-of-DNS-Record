@@ -26,7 +26,7 @@ Usage of the AAAA record for DNS resolution has great potential because it uses 
 AAAA records are used to resolve a domain name to the newer IPV6 protocol address.
 
 ### CNAME record
-CNAME—or, in full, "canonical name"—is a DNS record that points a domain name (an alias) to another domain. In a CNAME record, the alias doesn't point to an IP address. And the domain name that the alias points to is the canonical name. For example, the subdomain ng.example.com can point to example.com using CNAME. Here example.com points to the actual IP address using an A record.
+CNAME or "canonical name" is a DNS record that points a domain name (an alias) to another domain. In a CNAME record, the alias doesn't point to an IP address. And the domain name that the alias points to is the canonical name. For example, the subdomain ng.example.com can point to example.com using CNAME. Here example.com points to the actual IP address using an A record.
 ### NS record 
 Specifies which name servers are authoritative for a domain or subdomains (these records should not be pointed to a CNAME).
 A nameserver (NS) record specifies the authoritative DNS server for a domain. In other words, the NS record helps point to where internet applications like a web browser can find the IP address for a domain name.
@@ -46,3 +46,13 @@ This DNS record type stores information related to dynamic host configuration pr
 
 ### DNAME Record 
 The full meaning of DNAME is "delegation name." This record type works very similarly to CNAME; however, it points all the subdomains for the alias to the canonical domain name.That is, pointing the DNAME for secondsite.com to example.com will also apply to staff.secondsite.com and any other subdomain.
+
+
+
+### Thank You
+
+##### If you have any feedback, please reach out to me at mdsifathossain100@gmail.com
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-sifat-hossain-461274184/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ict_all)
+
+[@sifat](https://github.com/MdsifatHossain)
